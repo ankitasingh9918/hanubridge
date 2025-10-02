@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ankitasingh9918.github.io/hanubridge",
+  "homepage": "https://github.com/ankitasingh9918/ReactProject",
   "scripts": {
-    "start": "react-scripts start",
+     "start": "react-scripts start",
   "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
