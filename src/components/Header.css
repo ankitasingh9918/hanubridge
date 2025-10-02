@@ -1,0 +1,49 @@
+/* Navbar background and shadow */
+.navbar-custom {
+  background-color: #ffffff; /* light background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0.8rem 1rem;
+}
+
+/* Navbar links */
+.navbar-custom .nav-link {
+  font-weight: 600;
+  color: #333333;
+  transition: color 0.3s, border-bottom 0.3s;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* invisible by default */
+  padding-bottom: 4px; /* space for border */
+}
+
+/* Hover effect: border-bottom appears */
+.navbar-custom .nav-link:hover {
+  color: #FF7F00; /* orange on hover */
+  border-bottom: 2px solid #FF7F00; /* underline */
+}
+
+/* Active link: always underlined */
+.navbar-custom .nav-link.active {
+  color: #FF7F00; /* orange for active link */
+  border-bottom: 2px solid #FF7F00; /* underline stays */
+}
+
+/* Active link on hover */
+.navbar-custom .nav-link.active:hover {
+  color: #FF7F00;
+  border-bottom: 2px solid #FF7F00;
+}
+
+/* Search button */
+.navbar-custom .btn-search {
+  background-color: #FF7F00;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar-custom .btn-search:hover {
+  background-color: #e67300;
+}

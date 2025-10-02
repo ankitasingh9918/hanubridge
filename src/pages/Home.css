@@ -1,0 +1,28 @@
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa, #e8edf5);
+  position: relative;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-warning {
+  background-color: #ff7f00;
+  border: none;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #e96d00;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
